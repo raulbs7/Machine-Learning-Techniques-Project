@@ -100,6 +100,16 @@ For this project, the goal will be determine a model, to predict the spread of t
 <a name="desc"></a>
 ### **File descriptions**
 
+* [1_Preprocessing.ipynb](Dengue_Supervised_Project/1_Preprocessing.ipynb): this notebook is in charge of preprocessing data, in order to be ready for the training.
+* [2_Baseline.ipynb](Dengue_Supervised_Project/2_Baseline.ipynb): this notebook describes the process of trying
+* [3_Optimization_Model.ipynb](Dengue_Supervised_Project/3_Optimization_Model.ipynb): notebook in which it will be done the lines of improvements and, also, the optimization of the choosen model determined by the baseline.
+* [dengue_features_test.csv](Dengue_Supervised_Project/res/dengue_features_test.csv): this is the original dataset for testing.
+* [dengue_features_train.csv](Dengue_Supervised_Project/res/dengue_features_train.csv): this is the original dataset for training.
+* [processed_test.csv](Dengue_Supervised_Project/res/processed_test.csv): this is the preprocessed data for testing.
+* [processed_train.csv](Dengue_Supervised_Project/res/processed_train.csv): this is the preprocessed data for training.
+* [submission_baseline.csv](Dengue_Supervised_Project/res/submission_baseline.csv): this data are the predictions obtained by the model created in the baseline.
+* [submission_optimization.csv](Dengue_Supervised_Project/res/submission_optimization.csv): this data are the predictions obtained by the model created by the optimized model.
+
 <a name="usage"></a>
 ### **Technologies used**
 
@@ -112,6 +122,31 @@ For this project, the goal will be determine a model, to predict the spread of t
 
 <a name="structure"></a>
 ### **Structure**
+
+1. PREPROCESSING
+    * Initialization
+    * Removal of redundant and unnecesary features 
+    * Variable categorization
+    * Discretization
+    * Elimination of outliers
+    * Null values treatment
+    * Saving data
+2. BASELINE
+    * Initialization
+    * Analysis of data
+    * Models
+        * Random Forests
+        * Linear Regression
+        * Gradient Boosting
+        * K-nearest-neighbors
+    * First submission
+3. OPTIMIZATION MODEL
+    * Initialization
+    * Importing dataset
+    * Selection of the best features
+        * San Juan model
+        * Iquitos model
+        * Submission of the two models  
 
 ## Autores ✒️
 
