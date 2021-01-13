@@ -57,3 +57,9 @@ For this project, the goal will be determine a model, to predict the spread of t
         * San Juan model
         * Iquitos model
         * Submission of the two models
+
+
+## Autores ✒️
+
+* **Raúl Bernalte Sánchez** - [raulbs7](https://github.com/raulbs7)
+* **Elena María Ruiz**  - [elenamariaruiz](https://github.com/elenamariaruiz)
